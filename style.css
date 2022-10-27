@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+fieldset{
+    border: 0;
+    background-color: #DDDDDD;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #F0F8FF;
+    font-size: 1em;
+    margin-left: 5%;
+    margin-top: 2%;
+    
+    /*justify-content: left;*/
+}
+
+input{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(0,0,0,0.5);
+    //display: block;
+
+}
+
+input:focus{
+    background-color: green;
+
+}
+
+label{
+    display: block;
+}
+
+#mesma-linha{
+    display: flex;
+    flex-wrap: ;
+}

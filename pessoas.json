@@ -1,0 +1,52 @@
+[//Cria um lista
+    {//Cria um objeto
+        "id": 1,
+        "nome": "Erasmo Costa",
+        "endereco":{
+            "logradouro": "Vereador Manoel Pereira Martins",
+            "numero": 901,
+            "bairro": "Jardim Ipanema",
+            "cidade": "Campo Mourão",
+            "estado": "Parana"
+        },//fim do objeto 'endereço'
+        "viagens":[
+            "Florianópolis",
+            "Rio de Janeiro",
+            "Santiago"
+        ]
+    },//fim do primeiro objeto
+    
+    {
+        "id":2,
+        "nome": "Videotec Eletrônica",
+        "endereco": {
+            "logradouro": "Avenida Manoel Mendes de Camargo",
+            "numero": 747,
+            "bairro": "Centro",
+            "cidade": "Campo Mourão",
+            "estado": "Parana"
+        },//fim do objeto 'endereço'
+        "viagens": [
+            "Maringa",
+            "Umuarama",
+            "Peabiru"
+        ]
+    },//fim do segundo objeto
+
+    {
+        "id": 3,
+        "nome": "Vollenz Reabilitacao",
+        "endereco": {
+            "logradouro": "Avenida Jose Tadeu Nunes",
+            "numero": 1465,
+            "bairro": "Jardim Nossa Senhora Aparecida",
+            "cidade": "Campo Mourão",
+            "estado": "Paraná"
+        },//fim do objeto 'endereço'
+        "viagens":[
+            "Natal",
+            "Ronacador",
+            "Foz do Iguaçu"
+        ]
+    }//fim do terceiro objeto
+]

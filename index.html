@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="style.css" media="screen">
+    <title>Cadastro Endereço</title>
+</head>
+<body>
+    <div>
+        <h1>Cadastro de Endereço</h1>
+        <br/>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <p style="text-align:center;">Complete as infromações do seu endereço:</p>
+                <label for="cep">CEP:</label> 
+                <input type="text" id="cep">    
+            </div>
+            <div class="campos">
+                <div>
+                    <label for="logradouro">Logradouro:</label>
+                    <input type="text" id="logradouro">    
+                </div>
+
+                <div>
+                    <label for="numero">Numero:</label>
+                    <input class="mesma-linha" type="number" id="numero">    
+                
+
+                    <label for="bairro">Bairro:</label>
+                    <input class="mesma-linha" type="text" id="bairro">    
+                </div>
+
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade">    
+                </div>
+                
+                <div>
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado">    
+                </div>
+            </div>                  
+        </fieldset>
+    </form>
+    <script type="text/JavaScript" src="verification.js"></script>
+</body>
+</html>
